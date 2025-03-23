@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "description": "Buy groceries",
+        "status": "in progress"
+    },
+    {
+        "id": 2,
+        "description": "go bowling",
+        "status": "completed"
+    },
+    {
+        "id": 4,
+        "description": "sleep",
+        "status": "pending"
+    },
+    {
+        "id": 5,
+        "description": "code for fun",
+        "status": "completed"
+    },
+    {
+        "id": 6,
+        "description": "listen to music",
+        "status": "in progress"
+    }
+]
