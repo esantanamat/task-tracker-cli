@@ -105,7 +105,7 @@ if __name__ == "__main__":
     remove_parser = subparsers.add_parser("remove", help="Remove a task by ID")
     remove_parser.add_argument("task_id", type=int, help="ID of the task to remove")
 
-    # List tasks
+
     subparsers.add_parser("list", help="List all tasks")
     subparsers.add_parser("list_incomplete", help="List all incomplete tasks")
     subparsers.add_parser("list_completed", help="List all completed tasks")
@@ -114,7 +114,7 @@ if __name__ == "__main__":
     update_parser.add_argument("task_id", type=int)
     update_parser.add_argument("update", type=str)
 
-    # Parse arguments
+   
     args = parser.parse_args()
 
     if args.command == "add":
