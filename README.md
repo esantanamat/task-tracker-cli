@@ -21,11 +21,11 @@ A simple Command-Line Interface (CLI) tool for managing tasks using Python. This
    cd task-tracker-cli
 3. Ensure python is installed
 ## Usage
-To add a task: python task_tracker.py add "Your task here"
-To remove a task: python task_tracker.py remove "your task id here as int"
-To list all tasks: python task_tracker.py list
-To list all incomplete tasks (tasks that are not marked as "completed"): python task_tracker.py list_incomplete
-To list all completed tasks: python task_tracker.py list_completed
-To list tasks that are currently in progress: python task_tracker.py list_in_progress
-To update the status of a task, for example, changing it to "in progress": python task_tracker.py update 1 in progress
-Note: Replace 1 with the task's ID and choose from one of the following statuses: created, in progress, completed.
+To add a task: python task_tracker.py add "Your task here"  
+To remove a task: python task_tracker.py remove "your task id here as int"  
+To list all tasks: python task_tracker.py list  
+To list all incomplete tasks (tasks that are not marked as "completed"): python task_tracker.py list_incomplete  
+To list all completed tasks: python task_tracker.py list_completed  
+To list tasks that are currently in progress: python task_tracker.py list_in_progress  
+To update the status of a task, for example, changing it to "in progress": python task_tracker.py update 1 in progress  
+Note: Replace 1 with the task's ID and choose from one of the following statuses: created, in progress, completed.  
